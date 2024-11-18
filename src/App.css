@@ -420,3 +420,37 @@ footer h4{
     height: 110px;
   }
 }
+
+/* Resume */
+
+.ResumePage{
+  padding-top: 50px;
+  width: fit-content;
+  position: relative;
+  margin: 100px auto 0px;
+  text-align: center;
+}
+
+.resumeview{
+  pointer-events: none;
+}
+
+.downloadResume{
+  cursor:pointer;
+  margin: 25px 0px;
+  width: 200px;
+  height: 40px;
+  background-color:#431f47;
+  color: #E7E7E7;
+  text-decoration: none;
+  border-radius: 5px;
+  border-style: none; 
+  transition: all 0.5s;
+}
+
+.downloadResume:hover{
+  transition: all 0.5s;
+  background-color: #E7E7E7;
+  color: #431f47;
+}
+
