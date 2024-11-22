@@ -454,3 +454,18 @@ footer h4{
   color: #431f47;
 }
 
+/* Projects */
+
+.Project{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #9067C6;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: center;
+  height: 100vh;
+
+}
+

@@ -2,8 +2,8 @@ import React from 'react';
 
 const Project = () => {
     return (
-        <div>Projects</div>
+        <div className="Project">Projects</div>
     )
 }
 
-export default Project
+export default Project;
