@@ -33,6 +33,8 @@ const About = () => {
             <h1 className="SkillsHeading">Skillset</h1>
             <div className="skills">
                 <Skills skill="Github" />
+                <Skills skill="Java" />
+                <Skills skill="AWS" />
             </div>
         </>
     );
