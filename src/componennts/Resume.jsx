@@ -8,7 +8,6 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/b
 
 const Resume = () => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-    const [numPages, setNumPages] = useState(null);
 
     useEffect(() => {
         const handleResize = () => {
@@ -18,10 +17,6 @@ const Resume = () => {
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
     }, []);
-    const onDocumentLoadSuccess = (pdf) => {
-        console.log(`PDF loaded with ${pdf.numPages} pages`);
-        setNumPages(pdf.numPages);
-    };
 
     return (
         <div className="ResumePage">
